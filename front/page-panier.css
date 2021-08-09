@@ -1,0 +1,136 @@
+
+body 
+{
+    background-color: rgb(116, 115, 115);;
+        margin: 0;
+        padding: 0;
+        position: relative;
+}
+.menu 
+{
+    background-color: rgb(37, 37, 37);
+    height: 80px;
+    position: relative;
+}
+.titre 
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+    font-weight: bold;
+}
+.accueil
+{
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        right: 10%;
+        bottom: 40%;
+        text-decoration: none;
+}
+.bloc-contenu-panier
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(29, 27, 27);
+    position: relative;
+    margin-top: 20px;
+
+}
+.bloc-formulaire
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;  
+    box-shadow: 10px 5px 5px rgb(29, 27, 27); 
+    position: relative;
+}
+.votre-panier
+{
+    position: absolute;
+    left: 2%;
+    top: -5%;
+    font-size: 25px;
+}
+.passer-commande
+{
+    position: absolute;
+    left: 2%;
+    top: -5%;
+    font-size: 25px;
+
+}
+.form 
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+}
+.form label 
+{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 20px;
+}
+.form input 
+{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border:rgb(116, 115, 115) solid 2px;
+  }
+  .form input:hover
+  {
+    border:2px solid rgb(0, 45, 128);
+  }
+.bouton-commander
+{
+    position: absolute;
+    color: white;
+    background-color: rgb(0, 45, 128);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    
+    left: 70;
+    left: 73%;
+    height: 50px;
+    top: 80%;
+}
+.bouton-commander:hover
+{
+    background-color: rgb(34, 80, 167);
+    cursor: pointer;
+}
+
+
+footer
+{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+footer h3 
+{
+    display: flex;
+    justify-content: space-around;
+}
+footer li 
+{
+   list-style: none;
+   display: flex;
+  justify-content: space-around;
+}

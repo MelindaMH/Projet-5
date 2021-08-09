@@ -1,0 +1,120 @@
+
+
+body 
+{
+    background-color: rgb(116, 115, 115);
+        margin: 0;
+        padding: 0;
+        position: relative;
+}
+.titre 
+{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+    font-weight: bold;
+}
+.photo-bann
+{
+    color: white;
+    position: relative;
+}
+.text-photo-ban
+{
+    color:white;
+    font-size: 30px;
+    top: 15%;
+    left: 40%;
+    position: absolute;
+}
+.photo-bann img
+{
+    width: 100%;
+    max-height:  350px;
+    object-fit: cover;
+}
+.menu{
+    background-color: rgb(37, 37, 37);
+    height: 80px;
+    position: relative;
+}
+.panier {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 10%;
+    bottom: 40%;
+    text-decoration: none;
+}
+.articles
+{
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px 20px 20px 20px;
+    height:280px;
+    margin: 40px;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 10px 5px 5px rgb(19, 18, 18);
+}
+.articles img
+{
+    height: 200px;
+    width: 320px;
+    border-radius: 20px  20px 0px 0px;
+}
+.articles h3 
+{
+    color: white;
+    position: absolute;
+    left: 3%;
+    bottom: 4%;
+}
+.prix 
+{
+    color: white;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.container
+{
+    flex-wrap: wrap;
+    display: flex;   
+}
+footer
+{
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+footer h3 
+{
+    display: flex;
+    justify-content: space-around;
+}
+footer li 
+{
+   list-style: none;
+   display: flex;
+  justify-content: space-around;
+}
+@media screen and  (max-width:835px) {
+
+    .articles 
+    {
+        width: 300px;
+        margin: 10px;
+    }
+    .articles img 
+    {
+        width: 300px;;
+    }
+    .text-photo-ban
+    {
+        font-size: 25px;
+        left: 20%
+    }
+}
